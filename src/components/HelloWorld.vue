@@ -12,7 +12,7 @@
      <!-- <v-list-item-subtitle>by Bewave</v-list-item-subtitle>    -->
     <v-img
       src="https://raw.githubusercontent.com/barnacker/vuetest/7faaba62368d84706c3a95895b20a7771e9d55d9/vueapp/src/assets/blue-labs-plain.svg"
-       width="500" height="145">
+    >
     </v-img>  
     <h1 class="display-1"> Rental Price Prediction</h1>
      <!-- <v-img
@@ -236,7 +236,7 @@ export default {
     methods: {
     submit () {
       this.$refs.form.validate()
-      axios.post('http://127.0.0.1:8060/predict', {
+      axios.post('http://0.0.0.0:80/predict', {
         neighborhood_: this.Neighborhood,
         propertytype_: this.PropertyType,
         roomtype_: this.RoomType,
