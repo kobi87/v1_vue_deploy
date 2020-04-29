@@ -2,7 +2,7 @@
   <v-app id="app" 
    >
     <v-app-bar app color="teal lighten-2" dark>
-      <v-toolbar-title>AI Dashboard</v-toolbar-title>
+      <v-toolbar-title>AI Application</v-toolbar-title>
       <v-spacer></v-spacer>
       <v-btn text rounded>Home</v-btn>
       <v-btn text rounded>Login</v-btn>
