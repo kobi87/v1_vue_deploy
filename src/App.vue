@@ -2,7 +2,8 @@
   <v-app id="app" 
    >
     <v-app-bar app color="teal lighten-2" dark>
-      <v-toolbar-title>AI Application</v-toolbar-title>
+      <v-toolbar-title> <img src="./assets/white-labs-plain.png" height="50" />   </v-toolbar-title>
+      
       <v-spacer></v-spacer>
       <v-btn text rounded>Home</v-btn>
       <v-btn text rounded>Login</v-btn>
@@ -48,7 +49,7 @@ export default {
 
 <style>
    #app {
-     background-image: url('https://www.technocrazed.com/wp-content/uploads/2015/12/Home-Wallpaper-9.jpg');
+     background-image: url('./assets/Home-Wallpaper-9.jpg');
      /* background-color: #8f2c2c; */
     height: 100%;
     background-position: center;
